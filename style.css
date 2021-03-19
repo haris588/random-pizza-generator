@@ -9,19 +9,20 @@ body {
     margin:0 auto;
     width: 90%;
     text-align: center;
-    background: rgb(25, 24, 31);
+    background: rgba(248, 184, 6, 0.63);
     font-family: 'Lato', sans-serif;
 }
 
 .title {
     font-size: 2.5rem;
     padding: 0.8em;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgb(112, 27, 1);
 }
 
 .imageContainer {
     margin: 0 auto;
     width: 100%;
+
 }
 
 img {
@@ -29,6 +30,7 @@ img {
     height: 500px;
     object-fit: cover;
     border-radius: 10px;
+    box-shadow: 10px 5px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 750px){
