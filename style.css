@@ -33,6 +33,22 @@ img {
     box-shadow: 10px 5px rgba(0, 0, 0, 0.1);
 }
 
+.btn { 
+    margin-top: 2em;
+    border: 0;
+    padding: 1em 2.5em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(112, 27, 1);
+    border-radius: 10px;
+    transition: transform 250ms ease-in;
+}
+
+.btn:focus, .btn:hover { 
+  transform: scale(1.1);
+}
+
+
 @media (max-width: 750px){
     .title {
         font-size: 1.8rem;
